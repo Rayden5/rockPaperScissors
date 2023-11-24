@@ -35,7 +35,7 @@ function checkUserChoice(userInput, compChoice) {
         return decideWinner("Paper", userInput, compChoice);
     } else if (userInput == "Paper") {
         return decideWinner("Scissors", userInput, compChoice);
-    } else (userInput == "Scissors") {
+    } else {
         return decideWinner("Rock", userInput, compChoice);
     }
 }
